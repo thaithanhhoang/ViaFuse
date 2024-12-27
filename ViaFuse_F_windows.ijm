@@ -28,7 +28,7 @@ Dialog.addNumber("Myotube Multiplication Value", 1);
 Dialog.show(); 
 multip1 = Dialog.getNumber();
 multip2 = Dialog.getNumber();
-setSlice(dapi_channel);
+setSlice(dapi);
 dapi = getInfo("slice.label");
 run("Multiply...", "value=multip1");
 setSlice(myh_channel);
