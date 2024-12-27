@@ -12,7 +12,7 @@ fileName = Dialog.getString();
 //number of slices a stack has
 if (nSlices == 3) {
 	dapi_channel = 3; 
-	myh_channel = 1; 
+	myh_channel = 2; 
 }
 
 if (nSlices == 4) {
